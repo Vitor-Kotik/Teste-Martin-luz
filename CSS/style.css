@@ -153,3 +153,41 @@ form label {
 	padding: 7px 25px;
 	transition: 0.3s;
 }
+.conteudo2 .copyright{
+	display: none;
+}
+.conteudo2 .linkedin {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.retangulo {
+		padding-top: 38px;
+		padding-bottom: 0;
+		margin-bottom: 23px;
+	}
+
+	.vector1 {
+		padding: 0 auto;
+		margin-left: 122px;
+	}
+
+	.conteudo button {
+		display: none;
+	}
+
+	.conteudo .copyright, .conteudo .linkedin {
+		display: none;
+	}
+
+	.conteudo2 .copyright{
+	display: inline-block;
+	padding-top: 35px;
+	}	
+
+	.conteudo2 .linkedin {
+		display: inline-block;
+		padding-top: 35px;
+		padding-left: 140px;
+	}
+}
