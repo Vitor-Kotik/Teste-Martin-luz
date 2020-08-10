@@ -1,0 +1,155 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: #FFF;
+	font-family: 'DM Sans';
+}
+
+.retangulo {
+	background: #0B27FA;
+	padding-top: 78px;
+	padding-bottom: 41px;
+	margin-bottom: 68px;
+}
+.destaque {
+	color: #0B27FA;
+	font-weight: bold;
+}
+.form-control::placeholder {
+	color: #DADADA;
+}
+form label {
+	margin-top: 7px;
+}
+
+/* setas && escrita Cashforce*/
+.vector2 {
+	position: relative;
+	top: 10px;
+	left: -25px;
+}
+.letraC {
+	position: relative;
+	left: -25px;
+}
+.letraA {
+	position: relative;
+	top: 3px;
+	left: -30px;
+}
+.letraS {
+	position: relative;
+	top: 3px;
+	left: -33px;
+}
+.letraH {
+	position: relative;
+	top: 3px;
+	left: -36px;
+}
+.letraF {
+	position: relative;
+	top: 3px;
+	left: -42px;
+}
+.letraO {
+	position: relative;
+	top: 3px;
+	left: -48px;
+}
+.letraR {
+	position: relative;
+	top: 3px;
+	left: -53px;
+}
+.letraC2 {
+	position: relative;
+	top: 3px;
+	left: -58px;
+}
+.letraE {
+	position: relative;
+	top: 3px;
+	left: -62px;
+}
+/* EBOOK */
+.ebook {
+	font-weight: bold;
+	font-size: 24px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	padding-top: 59px;
+
+	color: #00BA91;
+}
+.slogan {
+	position: relative;
+	top: -20px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+/* Conteúdo */
+.conteudo {
+	font-size: 18px;
+	text-align: ;
+
+	color: #444548;
+}
+.copyright {
+	font-size: 16px;
+	padding-top: 173px;
+	padding-bottom: 53px;
+	display: inline-block;
+	float: left;
+
+	color: #021B51;
+}
+.linkedin {
+	display: inline-block;
+	padding-top: 170px;
+	padding-left: 100px;
+	font-size: 30px;
+	color: #021B51;
+}
+.conteudo a:link {color: #021B51; text-decoration: none;}
+.conteudo a:visited {color: #021B51;}
+.conteudo a:hover {color: #021B51; text-decoration: none;}
+.conteudo a:active {color: #021B51;}
+.conteudo a {cursor: pointer;}
+
+.conteudo button {
+	display: inline-block;
+	color: #021B51;
+	background: #00BA91;
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+	margin-top: 165px;
+	padding: 7px 25px;
+	transition: 0.3s;
+}
+
+/* Forms */
+.titulo {
+	font-weight: bold;
+	font-size: 20px;
+}
+.subtitulo {
+	font-size: 14px;
+	font-weight: bold;
+	color: #021B51;
+}
+.forms {
+	display: inline-block;
+	color: #021B51;
+	background: #00BA91;
+	font-size: 14px;
+	font-weight: bold;
+	float: right;
+	margin-top: 30px;
+	padding: 7px 25px;
+	transition: 0.3s;
+}
