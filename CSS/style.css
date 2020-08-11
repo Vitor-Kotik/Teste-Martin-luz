@@ -190,4 +190,9 @@ form label {
 		padding-top: 35px;
 		padding-left: 140px;
 	}
-}
+	.conteudo2 a:link {color: #021B51; text-decoration: none;}
+	.conteudo2 a:visited {color: #021B51;}
+	.conteudo2 a:hover {color: #021B51; text-decoration: none;}
+	.conteudo2 a:active {color: #021B51;}
+	.conteudo2 a {cursor: pointer;}
+	}
